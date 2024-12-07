@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Juan Pablo Rojas C, Ingeniero de Sistemas. Proyectos, habilidades y experiencias en desarrollo web y programación.">
+    <meta name="keywords" content="portafolio, ingeniero de sistemas, desarrollo web, proyectos, habilidades">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../Estilos/inicio.css">
+    <link rel="stylesheet" href="../Estilos/proyectos.css">
+</head>
+<body>
+    <!-- Header -->
+<header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <i class="bi bi-code-square"></i> Portafolio
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link"   href="sobreMi.html">Sobre Mi</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link"id="activo" aria-current="pagina 3"href="proyectos.html">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Contactos.html">Contactos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="curriculum.html">CV</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!-- Cierre del nav -->
+</header>
+<!-- Cierre header -->
+
+   <main>
+
+<!-- Sección de proyectos -->
+<section id="proyectos" class="py-5">
+    <div class="container text-center">
+        <h2 class="display-5">Mis Proyectos</h2>
+        <div id="proyectosCarousel" class="carousel slide" aria-labelledby="proyectosCarouselLabel">
+          
+          <div class="carousel-inner">
+            
+            <!-- Primer proyecto -->
+            <div class="carousel-item active" role="tabpanel">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <figure class="figure">
+                                <img src="../img/ferreteria.png" class="figure-img img-fluid rounded" alt="Imagen sobre una ferretería" />
+                                <figcaption class="figure-caption">Imagen de una ferretería.</figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Sistema de Ferretería</h5>
+                                <p class="card-text">Sistema para registrar productos, cobros y generar facturas en una ferretería.</p>
+                                <p class="card-text">Tecnologías: C#, SQL Server</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Segundo proyecto -->
+            <div class="carousel-item" role="tabpanel">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <figure class="figure">
+                                <img src="../img/heladeria.png" class="figure-img img-fluid rounded" alt="Imagen de una heladería" />
+                                <figcaption class="figure-caption">Imagen de heladería.</figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Sistema de Heladería</h5>
+                                <p class="card-text">Sistema para gestionar ventas y productos en una heladería, con roles de administrador y usuarios.</p>
+                                <p class="card-text">Tecnologías: C#, SQL Server</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Tercer proyecto (Ejemplo) -->
+            <div class="carousel-item" role="tabpanel">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <figure class="figure">
+                                <img src="../img/portafolio.png" class="figure-img img-fluid rounded" alt="Imagen de Portafolio Web" />
+                                <figcaption class="figure-caption">Imagen de Portafolio Web</figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Portafolio Web</h5>
+                                <p class="card-text">Se muestra informacion Profesional </p>
+                                <p class="card-text">Tecnologías: HTML,CSS,Bootstrap 5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+          </div>
+  
+          <!-- Controles de flechas (anterior y siguiente) -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#proyectosCarousel" data-bs-slide="prev" aria-label="Proyecto anterior">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#proyectosCarousel" data-bs-slide="next" aria-label="Siguiente proyecto">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+    </div>
+  </section>
+
+ <section>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Importancia de tener un Portafolio Web</h1>
+        
+        <!-- Contenedor del video responsive -->
+        <div class="ratio ratio-16x9">
+          <video controls aria-labelledby="videoTitle" aria-describedby="videoDescription">
+            <!-- Título del video para lectores de pantalla -->
+            <p id="videoTitle" class="d-none">Video educativo sobre la importancia de tener un portafolio web</p>
+    
+            <!-- Descripción del video para lectores de pantalla -->
+            <p id="videoDescription" class="d-none">Este video explica la importancia de tener un portafolio web</p>
+    
+            <!-- Ruta al archivo de video -->
+            <source src="../Video/La importancia de los portafolios de desarrolladores.mp4" type="video/mp4" aria-label="Video educativo">
+    
+            <!-- Subtítulos en Español -->
+            <track kind="subtitles" label="Español" srclang="es" src="../Video/La importancia de los portafolios de desarrolladores.vtt" default>
+    
+            <!-- Subtítulos en Inglés -->
+            <track kind="subtitles" label="Inglés" srclang="en" src="../Video/La importancia de los portafolios de desarrolladoresEnglish.vtt">
+          </video>
+        </div>
+    
+      </div>
+ </section>
+  
+   </main>
+
+   <!-- Footer -->
+<footer class="bg-dark text-white pt-4 pb-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Información del portafolio (Columna 1) -->
+            <div class="col-md-6 text-center text-md-start mb-4">
+                <h5 class="text-uppercase">Ingeniería de Sistemas</h5>
+                <p>Portafolio personal de proyectos y estudios realizados en la carrera de Ingeniería de Sistemas. Diseñado para mostrar habilidades técnicas y proyectos relevantes.</p>
+            </div>
+
+            <!-- Redes sociales (Columna 2) -->
+            <div class="col-md-6 text-center">
+                <h5 class="text-uppercase mb-3">Sígueme</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.linkedin.com/in/tu-perfil" target="_blank" class="text-white me-3">
+                            <i class="bi bi-linkedin"></i> LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/JPablorc09" target="_blank" class="text-white me-3">
+                            <i class="bi bi-github"></i> GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100092845128090" target="_blank" class="text-white me-3">
+                            <i class="bi bi-facebook"></i> Facebook
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Derechos de autor -->
+        <div class="row mt-4 justify-content-center">
+            <div class="col-12 text-center">
+                <p>&copy; 2024 Juan Pablo Rojas C. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Fin del footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

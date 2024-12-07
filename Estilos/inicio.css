@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+body{
+   font-family: "Parkinsans"!important; 
+}
+body{
+    /*permite definir un tamaño de fuente flexible, que se adapta a diferentes tamaños de pantalla, pero mantiene un tamaño mínimo y máximo.*/
+    font-size: clamp(1.5rem, 1vw, 2.5rem) !important;
+}
+.navbar-brand{
+    color: #ff5080 !important;
+}
+.nav-link{
+    font-size: 20px;
+    color:white !important;      
+}
+#navbarNav,ul, li, #activo{
+    color:blue!important;
+}
+#navbarNav, ul ,li a:hover{
+    color: #ff5080 !important;
+}
